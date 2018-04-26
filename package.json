@@ -5,13 +5,15 @@
   "version": "0.18.0",
   "license": "BSD-3-Clause",
   "main": "./build/ros3d.cjs.js",
-  "module": "./build/ros3d.esm.js",
+  "module": "./build/ros3d.cjs.js",
   "dependencies": {
     "eventemitter2": "~2.2.0",
     "roslib": ">=0.14.0",
     "three": "^0.88.0"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
     "chai": "^3.5.0",
     "grunt": "^1.0.1",
     "grunt-contrib-clean": "^1.0.0",

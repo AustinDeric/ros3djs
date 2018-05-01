@@ -5,7 +5,7 @@
   "version": "0.18.0",
   "license": "BSD-3-Clause",
   "main": "./build/ros3d.cjs.js",
-  "module": "./build/ros3d.esm.js",
+  "module": "./build/ros3d.cjs.js",
   "dependencies": {
     "eventemitter2": "~2.2.0",
     "roslib": ">=0.14.0",
